@@ -8,7 +8,7 @@ class ScheduleProvider extends ChangeNotifier {
 
   List<TaskModel> get tasks => _tasks;
 
-  void addTasks({
+void addTask({
     required String title,
     required String category,
     required DateTime date,
